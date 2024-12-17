@@ -9,15 +9,6 @@ public class Main : MonoBehaviour
     [SerializeField] TMP_Text Login_link;
     [SerializeField] TMP_Text Result;
  
-    private void Awake()
-    {
-#if UNITY_STANDALONE       
-        var w = PlayerPrefs.GetInt("Screenmanager Resolution Width", 480);
-        var h = PlayerPrefs.GetInt("Screenmanager Resolution Height", 540);
-        Screen.SetResolution(w, h, false);
-#endif
-    }
-
     void Start()
     {        
         Login_link.text = PSNIDBASE64.LOGIN_URL;
