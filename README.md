@@ -25,5 +25,5 @@ https://github.com/hongjeongyun/Unity_Portpolio1/blob/bc72f9b9d6dccb1387dc451715
 결과를 tokeninfo 에 저장합니다.
 
 3.Account ID 취득  
-토큰에 연결된 계정정보를 취득하기 위해 URL에 엑세스토큰을 포함하여 GET 요청을 보냅니다.  https://github.com/hongjeongyun/Unity_Portpolio1/blob/6e9ca6562332434e06130ee2c00bcf62ae98b9a3/Assets/Script/PSNIDBASE64.cs#L43
+토큰에 연결된 계정정보를 취득하기 위해 URL에 엑세스토큰정보를 포함하여 GET 요청을 보냅니다.  https://github.com/hongjeongyun/Unity_Portpolio1/blob/6e9ca6562332434e06130ee2c00bcf62ae98b9a3/Assets/Script/PSNIDBASE64.cs#L43
 결과로 받은 계정정보에서 user_id 항목을 찾아 Base64 로 변환하여 최종출력 합니다.
