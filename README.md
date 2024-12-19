@@ -11,7 +11,8 @@ OAuth 2.0 에 대한 사전지식이 없었습니다.
 CLIENT_ID, CLIENT_SCRET 키워드를 근거로 자료를 검색하여
 OAuth 2.0 의 동작 원리, C# 의 OAuth2.0 API 에 대해 학습하였습니다.
              
-OAuth2.0 프로세스를 따라 작업합니다.  1.API KEY(CLIENT_ID, CLIENT_SECRET) 가 사전에 오픈소스에 공개되어 있기때문에 authorization code 발급을 사용
+OAuth2.0 프로세스를 따라 작업합니다. (  )
+1.API KEY(CLIENT_ID, CLIENT_SECRET) 가 사전에 오픈소스에 공개되어 있기때문에 authorization code 발급을 사용
 링크를 통해 외부 브라우저를 오픈하여 Login URL 의 쿼리 파라미터로 CLIENT_ID 를 전달하여 로그인 합니다. 
 [이동](https://github.com/hongjeongyun/Unity_Portpolio1/commit/200e4590a92ea992e92efbd79a0cd0bb65bae3b0#diff-59608a8a40d909c99dc7d68c516a10b8a36370ff370b3b84309121cc95831302R8)
 로그인후 redirect uri 로 발행된 authorization code 값이 "code" 쿼리 파라미터로 전달됩니다. Uri의 쿼리로부터 "code" 값을 저장합니다.
