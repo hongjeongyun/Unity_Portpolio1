@@ -48,7 +48,7 @@ public static class PSNIDBASE64
         var account_info = JsonConvert.DeserializeObject<Dictionary<string, string>>(account_request.Content.ReadAsStringAsync().Result);
 
         if (!account_info.ContainsKey("user_id"))
-            return $"access_token is missing in response JSON: {account_info}";
+            return $"user_id is missing in response or not string: {account_info}";
 
         var user_id_64 = Convert.ToInt64(account_info["user_id"]);
         var bytes = BitConverter.GetBytes(user_id_64);
