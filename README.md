@@ -1,12 +1,15 @@
-개요 : REST API / OAuth 2.0 을 이용한 PSN Account ID 를 취득하는 기능을 구현.
-         플레이스테이션 게임기와 리모트플레이 를 실현하는 오픈소스 프로그램 Chiaki 에서
-         기기등록을 위해 Base64 타입 의 Account ID 가 사용됩니다.
-         처음에는 C# 으로 동작을 하는 프로그램을 작성하는것이 목표.
-         또한 본 공고의 요건에 적합하도록 유니티에서 동작하도록 구현하는 포트폴리오를 제작하였습니다.
+# 개요
+REST API / OAuth 2.0 을 이용한 PSN Account ID 를 취득하는 기능을 구현.
+플레이스테이션 게임기와 리모트플레이 를 실현하는 오픈소스 프로그램 Chiaki 에서
+기기등록을 위해 Base64 타입 의 Account ID 가 사용됩니다.
+처음에는 C# 으로 동작을 하는 프로그램을 작성하는것이 목표.
+또한 본 공고의 요건에 적합하도록 유니티에서 동작하도록 구현하는 포트폴리오를 제작하였습니다.
          
-문제 : OAuth 2.0 에 대한 사전지식이 없었습니다.
-해결 : CLIENT_ID, CLIENT_SCRET 키워드를 근거로 자료를 검색하여
-       OAuth 2.0 의 동작 원리, C# 의 OAuth2.0 API 에 대해 알게되었습니다.
+# 문제
+OAuth 2.0 에 대한 사전지식이 없었습니다.
+# 해결 
+CLIENT_ID, CLIENT_SCRET 키워드를 근거로 자료를 검색하여
+OAuth 2.0 의 동작 원리, C# 의 OAuth2.0 API 에 대해 학습하였습니다.
              
 OAuth2.0 프로세스를 따라 작업합니다.
 1.API KEY(CLIENT_ID, CLIENT_SECRET) 가 사전에 오픈소스에 공개되어 있기때문에 authorization code 발급을 사용
