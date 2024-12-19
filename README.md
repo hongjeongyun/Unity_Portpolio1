@@ -18,11 +18,11 @@ Login URL 의 쿼리 파라미터로 CLIENT_ID 를 전달하여 로그인 합니
 유니티상에서 Inputfield 에 리디렉션 URI 를 붙여넣고 버튼을 누르면 취득과정이 시작됩니다.[코드](https://github.com/hongjeongyun/Unity_Portpolio1/commit/88dd894fe7b9bc2273352a5b19d028ac6948d3a8#diff-35a684e4cdb0e6bc8e5788f2a5afc0e4e35a2b293b3e353900dc4a8e43b589dbR16)
 
 2.발행된 authorization code 을 사용하여 access token 을 발급합니다.  
-입력된 리디렉트 URI 의 쿼리로부터 authorization code 값을 저장합니다.  
-HTTP 요청의 기본인증 헤더를 지정하고(Basic), 보낼 본문(인증방식, authorization code 값, 리디렉트 uri)을 생성합니다.  
+입력된 redirect uri 의 쿼리로부터 authorization code 값을 저장합니다.  
+HTTP 요청의 기본인증 헤더를 지정하고 (Basic), 보낼 본문(인증방식, authorization code, redirect uri)을 생성합니다.  
 Access token 을 발급 하기 위해 TOKEN_URL 으로 POST 요청을 보냅니다. [코드](https://github.com/hongjeongyun/Unity_Portpolio1/commit/ac32e088cf2427becd9566d32dbd8a14683a8859#diff-32b174d1270b0b5600e4017a939636bdbdf5a4c35b79aa37ebdd477791ca86b8R33)  
 결과를 tokeninfo 에 저장합니다.
 
 3.Account ID 취득
-계정정보를 취득하기 위해 URL에 엑세스토큰을 포함하여 GET 요청을 보냅니다. [코드](https://github.com/hongjeongyun/Unity_Portpolio1/commit/ae4910075821b5ebdb4a8c48408f49ed5893adc9#diff-32b174d1270b0b5600e4017a939636bdbdf5a4c35b79aa37ebdd477791ca86b8R43)  
+토근에 연결된 계정정보를 취득하기 위해 URL에 엑세스토큰을 포함하여 GET 요청을 보냅니다. [코드](https://github.com/hongjeongyun/Unity_Portpolio1/commit/ae4910075821b5ebdb4a8c48408f49ed5893adc9#diff-32b174d1270b0b5600e4017a939636bdbdf5a4c35b79aa37ebdd477791ca86b8R43)  
 결과로 받은 계정정보에서 user_id 항목을 찾아 Base64 로 변환하여 최종출력 합니다.
