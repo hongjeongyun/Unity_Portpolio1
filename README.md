@@ -1,5 +1,5 @@
 # 개요
-REST API / OAuth 2.0 을 이용한 PSN Account ID 를 취득하는 기능을 구현.
+REST API / OAuth 2.0 을 이용한 PSN Account ID 를 취득하는 기능을 구현.  
 플레이스테이션 게임기와 리모트플레이 를 실현하는 오픈소스 프로그램 Chiaki 에서  
 기기등록을 위해 Base64 타입 의 Account ID 가 사용됩니다.  
 처음에는 C# 으로 동작을 하는 프로그램을 작성하는것이 목표였습니다.  
