@@ -24,4 +24,4 @@ Access token 을 발급 하기 위해 TOKEN_URL 으로 POST 요청을 보냅니�
 
 3.Account ID 취득
 계정정보를 취득하기 위해 URL에 엑세스토큰을 포함하여 GET 요청을 보냅니다. [코드](https://github.com/hongjeongyun/Unity_Portpolio1/commit/ae4910075821b5ebdb4a8c48408f49ed5893adc9#diff-32b174d1270b0b5600e4017a939636bdbdf5a4c35b79aa37ebdd477791ca86b8R43)  
-요청결과를 Dictionary 변환하고 user_id 항목을 찾아 Base64 로 변환합니다.
+결과로 받은 계정정보에서 user_id 항목을 찾아 Base64 로 변환합니다.
