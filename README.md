@@ -17,7 +17,7 @@ https://github.com/hongjeongyun/Unity_Portpolio1/blob/5966d8d1f76eabd808993cb4c1
 로그인후 redirect uri 로 발행된 authorization code 값이 쿼리 파라미터 "code" 로 전달됩니다.  
 유니티상에서 Inputfield 에 redirect uri 를 붙여넣고 버튼을 누르면 취득과정이 시작됩니다. https://github.com/hongjeongyun/Unity_Portpolio1/blob/fea26d109b62c9f8513eb2ab3d153555a5f32a29/Assets/Script/Main.cs#L21
 
-2.발행된 authorization code 을 사용하여 access token 을 발급합니다.  
+2.발행된 authorization code 을 사용하여 Access token 을 발급합니다.  
 입력된 redirect uri 의 쿼리로부터 authorization code 값을 저장합니다.  
 HTTP 요청의 기본인증 헤더를 지정하고 (Basic), 보낼 본문(인증방식, authorization code, redirect uri)을 생성합니다.  
 Access token 을 발급 하기 위해 TOKEN_URL 으로 서버측에 POST 요청을 보냅니다. 
