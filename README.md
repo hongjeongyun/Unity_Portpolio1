@@ -19,7 +19,7 @@ Uri의 쿼리로부터 "code" 값을 저장합니다.
 
 2.발행된 authorization code 을 사용하여 access token 을 발급합니다.  
 HTTP 요청의 기본인증 헤더를 지정, 보낼 본문을 생성합니다.  
-Access token 을 발급 하기 위해 TOKEN_URL 으로 "code" 정보를 POST 합니다. [코드](https://github.com/hongjeongyun/Unity_Portpolio1/commit/ac32e088cf2427becd9566d32dbd8a14683a8859#diff-32b174d1270b0b5600e4017a939636bdbdf5a4c35b79aa37ebdd477791ca86b8R33)  
+Access token 을 발급 하기 위해 TOKEN_URL 으로 "code" 정보로 POST 요청을 보냅니다. [코드](https://github.com/hongjeongyun/Unity_Portpolio1/commit/ac32e088cf2427becd9566d32dbd8a14683a8859#diff-32b174d1270b0b5600e4017a939636bdbdf5a4c35b79aa37ebdd477791ca86b8R33)  
 결과를 tokeninfo 에 저장합니다.
 
 3.Account ID 취득
