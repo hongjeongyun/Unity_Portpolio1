@@ -15,7 +15,7 @@ OAuth2.0 프로세스를 따라 작업합니다.
 https://github.com/hongjeongyun/Unity_Portpolio1/blob/da78979ce6f74c0db298a283658225d18e74d314/Assets/Script/LoginLink.cs#L8
 https://github.com/hongjeongyun/Unity_Portpolio1/blob/5966d8d1f76eabd808993cb4c14812bfb8e412eb/Assets/Script/PSNIDBASE64.cs#L16
 로그인후 redirect uri 로 발행된 authorization code 값이 쿼리 파라미터 "code" 로 전달됩니다.  
-유니티상에서 Inputfield 에 redirect uri 를 붙여넣고 버튼을 누르면 취득과정이 시작됩니다.[코드](https://github.com/hongjeongyun/Unity_Portpolio1/commit/88dd894fe7b9bc2273352a5b19d028ac6948d3a8#diff-35a684e4cdb0e6bc8e5788f2a5afc0e4e35a2b293b3e353900dc4a8e43b589dbR16)
+유니티상에서 Inputfield 에 redirect uri 를 붙여넣고 버튼을 누르면 취득과정이 시작됩니다. https://github.com/hongjeongyun/Unity_Portpolio1/blob/fea26d109b62c9f8513eb2ab3d153555a5f32a29/Assets/Script/Main.cs#L21
 
 2.발행된 authorization code 을 사용하여 access token 을 발급합니다.  
 입력된 redirect uri 의 쿼리로부터 authorization code 값을 저장합니다.  
