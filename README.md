@@ -13,6 +13,7 @@ OAuth2.0 프로세스를 따라 작업합니다.
 1.API KEY(CLIENT_ID, CLIENT_SECRET) 가 공개되어 있으므로 authorization code 발급을 사용합니다.  
 링크를 통해 외부 브라우저를 오픈하여 Login URL 의 쿼리 파라미터에 CLIENT_ID 를 전달하여 로그인 합니다.
 https://github.com/hongjeongyun/Unity_Portpolio1/blob/da78979ce6f74c0db298a283658225d18e74d314/Assets/Script/LoginLink.cs#L8
+https://github.com/hongjeongyun/Unity_Portpolio1/blob/5966d8d1f76eabd808993cb4c14812bfb8e412eb/Assets/Script/PSNIDBASE64.cs#L16
 로그인후 redirect uri 로 발행된 authorization code 값이 쿼리 파라미터 "code" 로 전달됩니다.  
 유니티상에서 Inputfield 에 redirect uri 를 붙여넣고 버튼을 누르면 취득과정이 시작됩니다.[코드](https://github.com/hongjeongyun/Unity_Portpolio1/commit/88dd894fe7b9bc2273352a5b19d028ac6948d3a8#diff-35a684e4cdb0e6bc8e5788f2a5afc0e4e35a2b293b3e353900dc4a8e43b589dbR16)
 
