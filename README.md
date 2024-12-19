@@ -18,7 +18,7 @@ Login URL 의 쿼리 파라미터로 CLIENT_ID 를 전달하여 로그인 합니
 Uri의 쿼리로부터 "code" 값을 저장합니다.
 
 2.발행된 authorization code 을 사용하여 access token 을 발급합니다.  
-HTTP 요청의 기본인증 헤더를 Basic 으로 지정하고 보낼 본문(인증방식, code 값, 리디렉트 uri)을 생성합니다.  
+HTTP 요청의 기본인증 헤더를 지정하고(Basic), 보낼 본문(인증방식, code 값, 리디렉트 uri)을 생성합니다.  
 Access token 을 발급 하기 위해 TOKEN_URL 으로 POST 요청을 보냅니다. [코드](https://github.com/hongjeongyun/Unity_Portpolio1/commit/ac32e088cf2427becd9566d32dbd8a14683a8859#diff-32b174d1270b0b5600e4017a939636bdbdf5a4c35b79aa37ebdd477791ca86b8R33)  
 결과를 tokeninfo 에 저장합니다.
 
