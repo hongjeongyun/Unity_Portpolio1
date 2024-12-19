@@ -8,9 +8,7 @@ REST API / OAuth 2.0 을 이용한 PSN Account ID 를 취득하는 기능을 구
 # 문제
 OAuth 2.0 에 대한 사전지식이 없었습니다.
 # 해결 
-CLIENT_ID, CLIENT_SCRET 키워드를 근거로 자료를 검색하여
-OAuth 2.0 의 동작 원리, C# 의 OAuth2.0 API 에 대해 학습하였습니다.
-             
+CLIENT_ID, CLIENT_SCRET 키워드를 근거로 자료를 검색하여 OAuth 2.0 의 동작 원리, C# 의 OAuth2.0 API 에 대해 학습하였습니다.        
 OAuth2.0 프로세스를 따라 작업합니다. (  )
 1.API KEY(CLIENT_ID, CLIENT_SECRET) 가 사전에 오픈소스에 공개되어 있기때문에 authorization code 발급을 사용
 링크를 통해 외부 브라우저를 오픈하여 Login URL 의 쿼리 파라미터로 CLIENT_ID 를 전달하여 로그인 합니다. 
