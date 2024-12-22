@@ -21,7 +21,8 @@ https://github.com/hongjeongyun/Unity_Portpolio1/blob/ee3cb4f2994e3a6330b7edfe01
 <img src="https://github.com/hongjeongyun/ImageRepo/blob/main/Unit_portpolio_1/inpufieldpaste.jpg" alt="inputfield" width="249" height="297">
 https://github.com/hongjeongyun/Unity_Portpolio1/blob/acff328134428e475220c04ebbc1919a791e2870/Assets/Script/Main.cs#L21
 2.발행된 Authorization code 을 사용하여 Access token 을 발급합니다.  
-입력된 Redirect uri 의 쿼리로부터 Authorization code 값을 저장합니다.  
+입력된 Redirect uri 의 쿼리로부터 Authorization code 값을 저장합니다. 
+https://github.com/hongjeongyun/Unity_Portpolio1/blob/ee3cb4f2994e3a6330b7edfe0192848906ed19ad/Assets/Script/PSNIDBASE64.cs#L30  
 HTTP 요청의 기본인증 헤더를 지정하고 (Basic), 보낼 본문(인증방식, Authorization code, Redirect uri)을 생성합니다.  
 Access token 을 발급 하기 위해 TOKEN_URL 으로 서버측에 POST 요청을 보냅니다. 
 https://github.com/hongjeongyun/Unity_Portpolio1/blob/e3001c6bc7edc13c6907886d3da171074a7a08bc/Assets/Script/PSNIDBASE64.cs#L32-L34 
