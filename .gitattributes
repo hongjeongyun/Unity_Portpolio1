@@ -1,2 +1,13 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*.xml linguist-vendored
+*.config linguist-vendored
+*.md linguist-vendored
+*.unity linguist-vendored
+*.pdf linguist-vendored
+*.ttf linguist-vendored
+*.asset linguist-vendored
+*.shader linguist-vendored
+*.cginc linguist-vendored
+*.png linguist-vendored
+*.json linguist-vendored
