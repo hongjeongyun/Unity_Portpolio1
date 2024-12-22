@@ -14,11 +14,11 @@ OAuth2.0 프로세스를 따라 작업합니다.
 링크를 통해 외부 브라우저를 오픈하여 Login URL 의 쿼리 파라미터에 CLIENT_ID 를 전달하여 로그인 합니다.
 https://github.com/hongjeongyun/Unity_Portpolio1/blob/da78979ce6f74c0db298a283658225d18e74d314/Assets/Script/LoginLink.cs#L8 
 https://github.com/hongjeongyun/Unity_Portpolio1/blob/ee3cb4f2994e3a6330b7edfe0192848906ed19ad/Assets/Script/PSNIDBASE64.cs#L17  
-![login](https://github.com/hongjeongyun/ImageRepo/blob/main/Unit_portpolio_1/browsersony.jpg?raw=true){: width="50%" height="50%"}
+![login](https://github.com/hongjeongyun/ImageRepo/blob/main/Unit_portpolio_1/browsersony.jpg){: width="50%" height="50%"}
 로그인후 redirect uri 로 발행된 authorization code 값이 쿼리 파라미터 "code" 로 전달됩니다.
-![redirect](https://github.com/hongjeongyun/ImageRepo/blob/main/Unit_portpolio_1/ridirect.jpg?raw=true){: width="50%" height="50%"}
+![redirect](https://github.com/hongjeongyun/ImageRepo/blob/main/Unit_portpolio_1/ridirect.jpg){: width="50%" height="50%"}
 유니티상에서 Inputfield 에 redirect uri 를 붙여넣고 버튼을 누르면 취득과정이 시작됩니다.
-![inputfield](https://github.com/hongjeongyun/ImageRepo/blob/main/Unit_portpolio_1/inpufieldpaste.jpg?raw=true){: width="50%" height="50%"}
+![inputfield](https://github.com/hongjeongyun/ImageRepo/blob/main/Unit_portpolio_1/inpufieldpaste.jpg){: width="50%" height="50%"}
 https://github.com/hongjeongyun/Unity_Portpolio1/blob/acff328134428e475220c04ebbc1919a791e2870/Assets/Script/Main.cs#L21
 2.발행된 authorization code 을 사용하여 Access token 을 발급합니다.  
 입력된 redirect uri 의 쿼리로부터 authorization code 값을 저장합니다.  
