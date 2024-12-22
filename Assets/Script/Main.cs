@@ -13,14 +13,15 @@ public class Main : MonoBehaviour
     {        
         Login_link.text = PSNIDBASE64.LOGIN_URL;
         
-        Button_Get.onClick.AddListener(() => 
+        Button_Get.onClick.AddListener(async () => 
         {
             if (UriInputField.text == string.Empty || UriInputField.text == null)
                 return;
             
-            var result = PSNIDBASE64.GetBase64ID(UriInputField.text);                        
+            var result = await PSNIDBASE64.GetBase64ID(UriInputField.text);
+            Debug.Log(result);
             Result.text = result;
-            Result.fontSize = 50;                                                                        
+            Result.fontSize = 40;
         });
     }    
 }
