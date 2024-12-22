@@ -36,4 +36,4 @@ https://github.com/hongjeongyun/Unity_Portpolio1/blob/e3001c6bc7edc13c6907886d3d
 토큰에 연결된 계정정보를 취득하기 위해 TOKEN_URL에 tokeninfo 를 포함하여 서버측에 GET 요청을 보냅니다.
 https://github.com/hongjeongyun/Unity_Portpolio1/blob/f744f35469182010798530518abe5e48c6dc51f0/Assets/Script/PSNIDBASE64.cs#L44
 결과로 받은 계정정보에서 user_id 항목을 찾아 Base64 로 변환하여 최종출력 합니다. https://github.com/hongjeongyun/Unity_Portpolio1/blob/212f764b848c526321a4279927d0dee22976656b/Assets/Script/PSNIDBASE64.cs#L54-L57  
-<img src="https://github.com/hongjeongyun/ImageRepo/blob/main/Unit_portpolio_1/Result.jpg" alt="result">
+<img src="https://github.com/hongjeongyun/ImageRepo/blob/main/Unit_portpolio_1/Result.jpg" alt="result" width="236" height="123">
