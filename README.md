@@ -10,6 +10,7 @@ OAuth 2.0 에 대한 사전지식이 없었습니다.
 # 해결 
 CLIENT_ID, CLIENT_SCRET 키워드를 근거로 자료를 검색하여 OAuth 2.0 의 동작 원리를 학습하였습니다.  
 OAuth2.0 프로세스를 따라 작업합니다.  
+
 1.API KEY(CLIENT_ID, CLIENT_SECRET) 가 공개되어 있으므로 Authorization code 발급을 사용합니다.  
 링크를 통해 외부 브라우저를 오픈하여 Login URL 의 쿼리 파라미터에 CLIENT_ID 를 전달하여 로그인 합니다.
 https://github.com/hongjeongyun/Unity_Portpolio1/blob/da78979ce6f74c0db298a283658225d18e74d314/Assets/Script/LoginLink.cs#L8 
@@ -20,6 +21,7 @@ https://github.com/hongjeongyun/Unity_Portpolio1/blob/ee3cb4f2994e3a6330b7edfe01
 유니티상에서 Inputfield 에 redirect uri 를 붙여넣고 버튼을 누르면 취득과정이 시작됩니다.  
 <img src="https://github.com/hongjeongyun/ImageRepo/blob/main/Unit_portpolio_1/inpufieldpaste.jpg" alt="inputfield" width="249" height="297">
 https://github.com/hongjeongyun/Unity_Portpolio1/blob/acff328134428e475220c04ebbc1919a791e2870/Assets/Script/Main.cs#L21
+
 2.발행된 Authorization code 을 사용하여 Access token 을 발급합니다.  
 입력된 Redirect uri 의 쿼리로부터 Authorization code 값을 저장합니다. 
 https://github.com/hongjeongyun/Unity_Portpolio1/blob/ee3cb4f2994e3a6330b7edfe0192848906ed19ad/Assets/Script/PSNIDBASE64.cs#L30  
