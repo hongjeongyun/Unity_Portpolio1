@@ -21,7 +21,7 @@ https://github.com/hongjeongyun/Unity_Portpolio1/blob/ee3cb4f2994e3a6330b7edfe01
 입력된 redirect uri 의 쿼리로부터 authorization code 값을 저장합니다.  
 HTTP 요청의 기본인증 헤더를 지정하고 (Basic), 보낼 본문(인증방식, authorization code, redirect uri)을 생성합니다.  
 Access token 을 발급 하기 위해 TOKEN_URL 으로 서버측에 POST 요청을 보냅니다. 
-https://github.com/hongjeongyun/Unity_Portpolio1/blob/bc72f9b9d6dccb1387dc4517154336b07bc503a8/Assets/Script/PSNIDBASE64.cs#L33 
+https://github.com/hongjeongyun/Unity_Portpolio1/blob/e3001c6bc7edc13c6907886d3da171074a7a08bc/Assets/Script/PSNIDBASE64.cs#L34 
 결과를 tokeninfo 에 저장합니다.
 
 3.Account ID 취득  
